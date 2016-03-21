@@ -1,0 +1,162 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 55px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  background:#f0efef;
+}
+a{
+  color:#f9e42e;
+  text-decoration:none;
+}
+h1{
+  font-size:40px;
+  font-weight: 800;
+  color:white;
+  margin-left:25px;
+}
+nav{
+  width:70%;
+  font-size:24px;
+  font-weight:600px;
+  text-align:right;
+  word-spacing:10px;
+  margin:10px 10px 0 0;
+}
+
+h2{
+  font-size:40px;
+  font-weight:600;
+  color:#033048;
+}
+
+h3{
+  font-weight:800;
+  color:#033048;
+}
+main{
+  width:740px;
+  margin:20px 50px 20px 20px;
+  font-size:24px;
+  font-weight:300;
+  color:#606161;
+
+}
+aside{
+  width:240px;
+  font-size:24px;
+  font-weight:300;
+  color:#606161;
+  margin: 20px 10px 0 0;
+
+}
+article{
+  font-size:24px;
+  border-bottom:2px black solid;
+  padding:10px 0 10px 0;
+  margin:10px 0 10px 0;
+}
+article:first-letter{
+    font-size: 400%;
+    font-weight:600;
+    line-height:1;
+}
+
+.asidelink{
+    color:#606161;
+    line-height: 1.5;
+}
+
+.adunit{
+  height:365px;
+  background:white;
+  text-align: center;
+}
+.readmore{
+  text-align: right;
+  font-size:24px;
+  font-weight:600;
+  color:#033048;
+}
+
+.footerbutton{
+  background:#f9e42e;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+background:#033048;
+overflow:auto;
+color:#033048;
+}
+
+footer {
+text-align: center;
+}
+ button{
+  background:#033048;
+  color:white;
+  font-weight: 600;
+  border:0;
+  border-radius: 2px;
+  height:40px;
+  width:150px;
+  margin-bottom:20px;
+ }
+.footer{
+  color:#f9e42e;
+  text-align:center;
+}
+ .bottomboard{
+  background:#121212;
+  font-size:20px;
+  color:#606161;
+  font-weight:300;
+ }
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
