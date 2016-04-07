@@ -1,13 +1,16 @@
 // Program Flow
 //
 var clicknum=0;
+
 $('#clickme').click(function(){
 clicknum=clicknum+1;
 $('#click-num').html(clicknum);
+
 if(clicknum==15){$('body').css('background-color','blue');}
 	else if(clicknum==10){$('body').css('background-color','green');}
 	else if(clicknum==5){$('body').css('background-color','red');}
 	else{$('body').css('background-color','black');}
+
 });
 // 1: User clicks on #clickme (this element)
 // 2: Increment the value of #click-num by one for each click (eg if clicknum is 0, make it 1; it clicknum is 10, make it 11; etc.)

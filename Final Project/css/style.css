@@ -7,10 +7,14 @@ main{
 	width:200px;
 	margin:auto;
 }
+#left{
+	float:left;
+}
 .card{
 	background:rgb(153, 230, 230);
 	border:10px solid rgb(25, 103, 103);
 	border-radius:9px;
+	float:left;
 }
 
 #mainword{
@@ -23,7 +27,6 @@ main{
 	width:70%;
 	background:white;
 	margin:10px auto;
-
 }
 
 button{
@@ -32,6 +35,7 @@ button{
 	background:blue;
 }
 
-#left{
-	float:left;
+.clear{
+	clear:both;
 }
+
