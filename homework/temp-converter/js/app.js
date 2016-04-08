@@ -1,20 +1,20 @@
 $(document)
-$('#c').keydown(function(){
+$('#c2f').click(function(){
 var answer=0;
-answer=parseInt($('#c').val());
-answer=answer*2;
+answer=($('#c').val());
+answer=(answer*1.8)+32;
 $('#f').val(answer);
 });
 
 
-$('#f').keydown(function(){
+$('#f2c').click(function(){
 var answer=0;
 answer=parseInt($('#f').val());
-answer=answer*2;
+answer=(answer-32)/1.8;
 $('#c').val(answer);
 });
 
-$('button').click(function(){
+$('#reset').click(function(){
 $('#c').val(0)
 $('#f').val(0)
 });
