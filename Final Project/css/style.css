@@ -3,12 +3,40 @@ body{
 	text-align:center;
 }
 main{
-	height:400px;
+	height:300px;
 	width:200px;
 	margin:auto;
 }
 #left{
 	float:left;
+	width:20px;
+	height:20px;
+	border-bottom:25px solid transparent;
+	border-right:25px solid red;
+	border-left:25px solid transparent;
+	border-top:25px solid transparent;
+	margin-top:120px;
+}
+#right {
+	float:left;
+	width:20px;
+	height:20px;
+	border-bottom:25px solid transparent;
+	border-right:25px solid transparent;
+	border-left:25px solid green;
+	border-top:25px solid transparent;
+	margin-top:120px;
+
+}
+#down{
+	float:left;
+	width:25px;
+	height:25px;
+	border-bottom:25px solid transparent;
+	border-right:25px solid transparent;
+	border-left:25px solid transparent;
+	border-top:25px solid yellow;
+	margin-left:180px;
 }
 .card{
 	background:rgb(153, 230, 230);
@@ -32,10 +60,18 @@ main{
 button{
 	height:30px;
 	width:30px;
-	background:blue;
+	background:white;
+	margin:20px;
 }
 
 .clear{
 	clear:both;
 }
+#next{
+	width:150px;
+	display:inline-block;
+	align-self:left;
+}
 
+/*Questions: how to align inline elements left
+how to build a timer*/
