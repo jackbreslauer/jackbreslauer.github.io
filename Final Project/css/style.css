@@ -3,12 +3,33 @@ body{
 	text-align:center;
 }
 main{
+	height:80%;
+	width:70%;
+	margin:auto;
+}
+.leftContainer{
+	float:left;
+	width:35%;
 	height:300px;
-	width:200px;
+}
+.rightContainer{
+	float:left;
+	width:35%;
+	height:300px;
+}
+.downContainer{
+	float:left;
+	width:100%;
+	height:200px;
+}
+.middleContainer{
+	float:left;
+	width:25%;
+	height:400px;
 	margin:auto;
 }
 #left{
-	float:left;
+	
 	width:20px;
 	height:20px;
 	border-bottom:25px solid transparent;
@@ -16,9 +37,12 @@ main{
 	border-left:25px solid transparent;
 	border-top:25px solid transparent;
 	margin-top:120px;
+	margin-left:90%;
+	padding:0px;
+	display:none;
+
 }
 #right {
-	float:left;
 	width:20px;
 	height:20px;
 	border-bottom:25px solid transparent;
@@ -26,10 +50,14 @@ main{
 	border-left:25px solid green;
 	border-top:25px solid transparent;
 	margin-top:120px;
+	margin-right:80px;
+	padding:0px;
+	display:none;
+	float:left;
 
 }
 #down{
-	float:left;
+	
 	width:25px;
 	height:25px;
 	border-bottom:25px solid transparent;
@@ -37,12 +65,15 @@ main{
 	border-left:25px solid transparent;
 	border-top:25px solid yellow;
 	margin-left:180px;
+	padding:0px;
+	display:none;
+
 }
 .card{
 	background:rgb(153, 230, 230);
 	border:10px solid rgb(25, 103, 103);
 	border-radius:9px;
-	float:left;
+	
 }
 
 #mainword{
