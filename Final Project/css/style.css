@@ -3,19 +3,24 @@ body{
 	text-align:center;
 }
 main{
-	height:80%;
-	width:70%;
+	height:300px;
+	width:200px;
 	margin:auto;
+}
+#scoreboard{
+	margin:10px;
 }
 .leftContainer{
 	float:left;
-	width:35%;
+	width:37%;
 	height:300px;
+	position:relative;
 }
 .rightContainer{
 	float:left;
-	width:35%;
+	width:37%;
 	height:300px;
+	position:relative;
 }
 .downContainer{
 	float:left;
@@ -24,8 +29,8 @@ main{
 }
 .middleContainer{
 	float:left;
-	width:25%;
-	height:400px;
+	width:26%;
+	height:320px;
 	margin:auto;
 }
 #left{
@@ -37,7 +42,8 @@ main{
 	border-left:25px solid transparent;
 	border-top:25px solid transparent;
 	margin-top:120px;
-	margin-left:90%;
+	position:absolute;
+	right:0;
 	padding:0px;
 	display:none;
 
@@ -50,7 +56,8 @@ main{
 	border-left:25px solid green;
 	border-top:25px solid transparent;
 	margin-top:120px;
-	margin-right:80px;
+	position:absolute;
+	left:0;
 	padding:0px;
 	display:none;
 	float:left;
@@ -64,7 +71,7 @@ main{
 	border-right:25px solid transparent;
 	border-left:25px solid transparent;
 	border-top:25px solid yellow;
-	margin-left:180px;
+	margin:0 auto;
 	padding:0px;
 	display:none;
 
@@ -75,7 +82,10 @@ main{
 	border-radius:9px;
 	
 }
-
+.downbutton{
+	height:30px;
+	margin-top:10px;
+}
 #mainword{
 	font-weight:bold;
 	font-size:30px;
