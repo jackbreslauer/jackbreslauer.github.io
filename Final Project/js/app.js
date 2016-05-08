@@ -32,39 +32,43 @@ $('#taboo4').html(randomCard.cardcontent[4])
 })
 
 var team=0;
+var score1=0;
+var score2=0;
+
 
 $('#next').click(function(){
 	if(team===0) {team=1}
 	else if (team===1) {team=2}
-	else team=1})
+	else team=1
+})
 
-var score1=0;
-var score2=0;
+
+
+$('#left').click(function(){
 
 if(team===1){
-
-$('#left').click(function(){
 	score1=score1-1;
 	$('#score1').html(score1);
+}
+else{
+	score2=score2-1;
+	$('#score2').html(score2);}
 });
 
+
+
 $('#right').click(function(){
+
+if(team===1){
 	score1=score1+1;
 	$('#score1').html(score1);
-})
 }
-else if (team===2){
-
-$('#left').click(function(){
-score2=score2-1;
-$('#score2').html(score2);
-});
-
-$('#right').click(function(){
+else{
 score2=score2+1;
 $('#score2').html(score2);
+}
 });
-};
+
 
 $('#next').click(countdown)	
 
@@ -73,7 +77,7 @@ $('#next').click(countdown)
 var totalTime
 
 function countdown(){
-	totalTime=10
+	totalTime=60
 	var timer=setInterval(showtime, 1000)
 	$('#timeleft').html("Let's Go!");
 	$('#left,#right,#down').css('display','block')
@@ -93,4 +97,4 @@ function showtime (){
 			
 			}}
 	 }	
-	 //How do I stop the function from continuing to run?
+
