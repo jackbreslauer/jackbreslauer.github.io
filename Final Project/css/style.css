@@ -7,8 +7,15 @@ main{
 	width:200px;
 	margin:auto;
 }
-#scoreboard{
+.topContainer{
+	width:100%
+	height:30px;
+}
+.scoreboard{
+	display:inline-block;
 	margin:10px;
+	padding:10px;
+	border:3px solid rgb(25, 103, 103);
 }
 .leftContainer{
 	float:left;
@@ -114,5 +121,12 @@ button{
 	align-self:left;
 }
 
+@media (max-width:500px){
+	main{width:90%;}
+	.middleContainer{width:60%;}
+	.leftContainer{width:20%;}
+	.rightContainer{width:20%;}
+	.downContainer{height:50px;}
+}
 /*Questions: how to align inline elements left
 how to build a timer*/
