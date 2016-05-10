@@ -16,6 +16,18 @@ var cards = [
 { cardcontent: ['brooklyn','hipsters','brownstone','spike lee','g train' ]},
 { cardcontent: ['peanut butter','skippy','jif','chunky','smooth' ]},
 { cardcontent: ['friends','ross','monica','rachel','chandler' ]},
+{ cardcontent: ['General Assembly','Coding','expensive','terrible elevator','worth it!' ]},
+{ cardcontent: ['HTML','website','markup','H1','easy' ]},
+{ cardcontent: ['CSS','curly bracket','style','float','finicky' ]},
+{ cardcontent: ['Javascript','$','interactions','coffee','hard' ]},
+{ cardcontent: ['Chandler','red bull','Keanu Reeves','Long hair','legend' ]},
+{ cardcontent: ['Flatiron','triangle','tourists','sprint','Broadway' ]},
+{ cardcontent: ['Slack','clicking','emojis','AIM for adults','Group' ]},
+{ cardcontent: ['Sublime','Santeria','Text','Editor','S button' ]},
+{ cardcontent: ['Emojis','Smily Face','Thumbs Up','Cartoon','Icon' ]},
+{ cardcontent: ['New York','Subway','Rats','Times Square','Big Apple' ]},
+{ cardcontent: ['Subway','Rats','Smelly','Showtime','underground' ]},
+{ cardcontent: ['startup','company','tech','trendy','VC' ]},
 ]
 
 $('#right, #left, #down,#next').click(function () {
