@@ -4,4 +4,7 @@ body{
 }
 .title{
 	margin:auto;
+	font-size:200%;
+	color:#3A33FF;
+	padding:20px;
 }

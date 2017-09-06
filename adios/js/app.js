@@ -2,8 +2,10 @@ $(document).ready(function () {
 
 })
 
-var walktothec = $("#traveltime")
+$('#submit').click(function(e){
 
-$("#traveltime").click(function(){
-	$("#timetoleave").html(walktothec)
+var walktothec = $("#traveltime").val();
+	$("#timetoleave").text(walktothec);
+	e.preventDefault();
+
 })
