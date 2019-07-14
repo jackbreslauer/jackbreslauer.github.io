@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Groove Machine/AddLogTableViewController.swift"
+            timestampString = "582912913.1770771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AddLogTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Groove_Machine.AddLogTableViewController.linkedBehaviorLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Groove Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jackbreslauer/Desktop/Groove%20Machine/Groove%20Machine/AddLogTableViewController.swift"
+                  timestampString = "582868005.30418"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Groove_Machine.AddLogTableViewController.linkedBehaviorLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Groove Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jackbreslauer/Desktop/Groove%20Machine/Groove%20Machine/AddLogTableViewController.swift"
+                  timestampString = "582868005.307718"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Groove_Machine.AddLogTableViewController.linkedBehaviorLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Groove Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jackbreslauer/Desktop/Groove%20Machine/Groove%20Machine/AddLogTableViewController.swift"
+                  timestampString = "582868005.310394"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Groove_Machine.AddLogTableViewController.linkedBehaviorLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Groove Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jackbreslauer/Desktop/Groove%20Machine/Groove%20Machine/AddLogTableViewController.swift"
+                  timestampString = "582868005.312593"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Groove_Machine.AddLogTableViewController.init(style: __C.UITableViewStyle) -&gt; Groove_Machine.AddLogTableViewController"
+                  moduleName = "Groove Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jackbreslauer/Desktop/Groove%20Machine/Groove%20Machine/AddLogTableViewController.swift"
+                  timestampString = "582868005.315024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "203">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Groove_Machine.AddLogTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Groove_Machine.AddLogTableViewController"
+                  moduleName = "Groove Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jackbreslauer/Desktop/Groove%20Machine/Groove%20Machine/AddLogTableViewController.swift"
+                  timestampString = "582868005.31674"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Groove_Machine.AddLogTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Groove_Machine.AddLogTableViewController&gt;"
+                  moduleName = "Groove Machine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jackbreslauer/Desktop/Groove%20Machine/Groove%20Machine/AddLogTableViewController.swift"
+                  timestampString = "582868005.318593"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Groove Machine/LogStreamTableViewController.swift"
+            timestampString = "583284504.326387"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "LogStreamTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
